@@ -76,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33CD3EB42A28C0810058D25C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				560B42332A28B91500A3C8F2 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		560B42232A28B91500A3C8F2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +107,9 @@
 		560B422E2A28B91500A3C8F2 /* GitExample */ = {
 			isa = PBXGroup;
 			children = (
+				33CD3EB42A28C0810058D25C /* home */,
 				560B422F2A28B91500A3C8F2 /* AppDelegate.swift */,
 				560B42312A28B91500A3C8F2 /* SceneDelegate.swift */,
-				560B42332A28B91500A3C8F2 /* HomeViewController.swift */,
 				560B42352A28B91500A3C8F2 /* Main.storyboard */,
 				560B42382A28B91600A3C8F2 /* Assets.xcassets */,
 				560B423A2A28B91600A3C8F2 /* LaunchScreen.storyboard */,
