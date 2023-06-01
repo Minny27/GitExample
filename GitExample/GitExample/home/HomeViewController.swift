@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
         let label = UILabel()
         label.text = "jane Nice"
         label.textColor = .white
+        label.font = .boldSystemFont(ofSize: 40)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -20,14 +21,16 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .blue
+    }
+    
+    private func setupUI() {
         view.addSubview(textLabel)
         
         NSLayoutConstraint.activate([
             textLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             textLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
-        
-        view.backgroundColor = .blue
     }
 }
 
