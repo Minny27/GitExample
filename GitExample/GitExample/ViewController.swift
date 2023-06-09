@@ -1,5 +1,5 @@
 //
-//  HomeVC.swift
+//  ViewController.swift
 //  GitExample
 //
 //  Created by SeungMin on 2023/06/01.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class ViewController: UIViewController {
     
     let textLabel: UILabel = {
         let label = UILabel()
