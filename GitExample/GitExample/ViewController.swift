@@ -11,7 +11,8 @@ class ViewController: UIViewController {
     
     let textLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hello World!"
+        label.text = "plus person gogo"
+        label.textColor = .blue
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
