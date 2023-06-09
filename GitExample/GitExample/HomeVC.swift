@@ -11,20 +11,16 @@ class HomeVC: UIViewController {
     
     let textLabel: UILabel = {
         let label = UILabel()
-        label.text = "jane Nice"
-
-        label.textColor = .yellow
-
-        label.font = .boldSystemFont(ofSize: 40)
+        label.text = "Hello World!"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .black
-
+        view.backgroundColor = .white
+        
+        setupUI()
     }
     
     private func setupUI() {
